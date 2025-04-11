@@ -1,0 +1,148 @@
+{
+  "Products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "1"},
+          "product_name": {"S": "Classic Mint"},
+          "flavour": {"S": "Mint"},
+          "price": {"N": "250"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A refreshing, cool mint flavor in a 250g foil packet, perfect for a crisp shisha experience. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "2"},
+          "product_name": {"S": "Double Apple"},
+          "flavour": {"S": "Apple"},
+          "price": {"N": "250"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "The iconic blend of red and green apples with a hint of anise, packed in a 250g foil packet. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "3"},
+          "product_name": {"S": "Exotic Mango"},
+          "flavour": {"S": "Mango"},
+          "price": {"N": "300"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A tropical, juicy mango infusion in a 250g foil packet for a bold taste. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "4"},
+          "product_name": {"S": "Blueberry Bliss"},
+          "flavour": {"S": "Blueberry"},
+          "price": {"N": "300"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "Sweet, fresh blueberries with a smooth finish, delivered in a 250g foil packet. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "5"},
+          "product_name": {"S": "Spiced Chai"},
+          "flavour": {"S": "Chai"},
+          "price": {"N": "350"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "An innovative mix of warm chai spices and tobacco, packed in a 250g foil packet. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "6"},
+          "product_name": {"S": "Bitter Orange"},
+          "flavour": {"S": "Orange"},
+          "price": {"N": "300"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A zesty, bitter orange flavor in a 250g foil packet, offering a unique shisha experience. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "7"},
+          "product_name": {"S": "Bombay Pan"},
+          "flavour": {"S": "Pan"},
+          "price": {"N": "300"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A traditional Indian pan flavor with sweet and spicy notes, in a 250g foil packet. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "8"},
+          "product_name": {"S": "Bubble Gum"},
+          "flavour": {"S": "Bubble Gum"},
+          "price": {"N": "300"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A fun, sweet bubble gum flavor in a 250g foil packet, perfect for a playful smoke. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "9"},
+          "product_name": {"S": "Masala"},
+          "flavour": {"S": "Masala"},
+          "price": {"N": "350"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A rich, spicy masala blend in a 250g foil packet, for an aromatic shisha session. Packed 10 per container."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "10"},
+          "product_name": {"S": "Best Hubs Elite"},
+          "flavour": {"NULL": true},
+          "price": {"N": "1500"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "A sleek, stainless steel hookah with a modern design, shipped securely."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "11"},
+          "product_name": {"S": "Silicone Black Hose"},
+          "flavour": {"NULL": true},
+          "price": {"N": "450"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "Durable, flexible hose with a premium feel, shipped securely."}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "12"},
+          "product_name": {"S": "Gold-Tipped Mouthpiece Set"},
+          "flavour": {"NULL": true},
+          "price": {"N": "200"},
+          "in_stock": {"BOOL": true},
+          "description": {"S": "Set of 5 elegant, reusable mouthpieces, shipped securely."}
+        }
+      }
+    }
+  ]
+}

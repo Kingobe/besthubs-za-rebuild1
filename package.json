@@ -1,0 +1,19 @@
+{
+  "name": "besthubs-za-rebuild",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-auth": "^4.24.0",
+    "aws-sdk": "^2.1500.0",
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1"
+  }
+}

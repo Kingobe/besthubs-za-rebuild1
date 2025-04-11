@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #D4AF37;
+}
+
+.bg-dark-gray {
+  background-color: #1F2526;
+}
+
+.bg-beige-wood {
+  background-color: #F5F5DC;
+  background-image: url("/wood-texture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-opacity: 0.3;
+}
+
+.bg-gold-500 {
+  background-color: #D4AF37;
+}
+
+.text-dark-gray {
+  color: #333333;
+}
+
+.card {
+  border: 1px solid #D4AF37;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.footer-leaf::before {
+  content: "🍃";
+  margin-right: 8px;
+}
